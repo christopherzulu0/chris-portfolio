@@ -1,7 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&amp;display=swap');
+
+body,html{
+  font-family: 'Jost', sans-serif;
+}
+
 
 :root {
-  --font-base: "DM Sans", sans-serif;
+  --font-base:'Jost', sans-serif;;
 
   --primary-color: #edf2f8;
   --secondary-color: #313bac;
