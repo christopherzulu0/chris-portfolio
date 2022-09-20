@@ -20,13 +20,13 @@ const About = () => {
     <>
       <h2 className="head-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2>
 
-      <div className="app__profiles ">
+      <div className="app__profiles shadow-sm">
         {abouts.map((about, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.5, type: 'tween' }}
-            className="app__profile-item"
+            className="app__profile-item  "
             key={about.title + index}
           >
             <img src={urlFor(about.imgUrl)} alt={about.title} />
