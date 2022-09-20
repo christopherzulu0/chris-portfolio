@@ -18,7 +18,7 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2>
+      <h2 className="head-text text-info">Hard work beats talent, when talent doesn’t work hard.</h2>
 
       <div className="app__profiles shadow-sm">
         {abouts.map((about, index) => (
